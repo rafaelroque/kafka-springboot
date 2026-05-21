@@ -1,6 +1,9 @@
+<<<<<<< HEAD
+=======
 server:
   port: 0
 
+>>>>>>> master
 app:
   kafka:
     enabled: true
@@ -10,6 +13,8 @@ spring:
     producer:
       bootstrap-servers:
         - localhost:9092
+<<<<<<< HEAD
+=======
         
 
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
@@ -19,3 +24,4 @@ spring:
     admin:
       fail-fast: false
       auto-create: false
+>>>>>>> master
