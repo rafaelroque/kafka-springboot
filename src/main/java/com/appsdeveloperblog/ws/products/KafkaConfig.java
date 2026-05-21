@@ -9,6 +9,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.config.TopicBuilder;
 
 @Configuration
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 @ConditionalOnProperty(
         value = "app.kafka.enabled",
         havingValue = "true"
