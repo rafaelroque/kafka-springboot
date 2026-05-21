@@ -1,0 +1,9 @@
+app:
+  kafka:
+    enabled: true
+
+spring:
+  kafka:
+    producer:
+      bootstrap-servers:
+        - localhost:9092
