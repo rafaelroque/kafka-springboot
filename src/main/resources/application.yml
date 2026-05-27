@@ -3,7 +3,6 @@ server:
 
 app:
   kafka:
-<<<<<<< HEAD
     enabled: false
 
 spring:
@@ -20,6 +19,5 @@ spring:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
 
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
-=======
     enabled: false
->>>>>>> master
+
